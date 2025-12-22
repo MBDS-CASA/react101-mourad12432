@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Navigation from './Navigation'
 import Header from './Header'
 import MainContent from './MainContent'
 import StudentCard from './StudentCard'
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+      <Navigation />
       <Header />
       <MainContent />
       <StudentCard />
