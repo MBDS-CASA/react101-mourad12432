@@ -1,9 +1,11 @@
 import './Footer.css'
 
 function Footer() {
+  const annee = new Date().getFullYear()
+
   return (
     <footer className="footer">
-      <p>Tous droits réservés - Bounaim Mourad</p>
+      <p>© {annee} - Mourad.Bounaim, Tous droits réservés.</p>
     </footer>
   )
 }
