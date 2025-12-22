@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './Header'
 import MainContent from './MainContent'
+import StudentCard from './StudentCard'
 import Footer from './Footer'
 import './App.css'
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <Header />
       <MainContent />
+      <StudentCard />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
