@@ -25,6 +25,7 @@
 }
 
 .menu-button {
+  display: block;
   background: linear-gradient(135deg, rgba(255, 215, 0, 0.3), rgba(255, 237, 78, 0.3));
   color: #fff;
   border: 2px solid rgba(255, 215, 0, 0.5);
@@ -37,6 +38,7 @@
   text-align: left;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
 }
 
 .menu-button:hover {
@@ -44,8 +46,12 @@
   border-color: #ffd700;
   transform: translateX(8px) scale(1.05);
   box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
+  color: #fff;
 }
 
-.menu-button:active {
+.menu-button:active,
+.menu-button.active {
   transform: translateX(8px) scale(1);
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  color: #764ba2;
 }
