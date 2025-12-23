@@ -29,7 +29,6 @@ function Notes() {
 
       <div className="stats-overview">
         <div className="stat-card">
-          <div className="stat-icon">📊</div>
           <h3>Moyenne Générale</h3>
           <p className="stat-value">{averageGrade}/100</p>
         </div>
@@ -39,7 +38,6 @@ function Notes() {
           <p className="stat-value">{maxGrade}/100</p>
         </div>
         <div className="stat-card">
-          <div className="stat-icon">📉</div>
           <h3>Note Minimale</h3>
           <p className="stat-value">{minGrade}/100</p>
         </div>

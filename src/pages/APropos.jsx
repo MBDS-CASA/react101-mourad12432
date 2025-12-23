@@ -7,7 +7,7 @@ function APropos() {
 
       <div className="about-content">
         <div className="about-card">
-          <div className="card-icon">👨‍💻</div>
+
           <h2>Développeur</h2>
           <p className="developer-name">Mourad Bounaim</p>
           <p className="description">
@@ -25,7 +25,6 @@ function APropos() {
         </div>
 
         <div className="about-card">
-          <div className="card-icon">💡</div>
           <h2>Projet</h2>
           <p className="project-name">Système de Gestion des Étudiants</p>
           <p className="description">
@@ -34,7 +33,6 @@ function APropos() {
         </div>
 
         <div className="about-card">
-          <div className="card-icon">🛠️</div>
           <h2>Technologies Utilisées</h2>
           <div className="tech-stack">
             <span className="tech-badge">React</span>
