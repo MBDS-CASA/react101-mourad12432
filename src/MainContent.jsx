@@ -16,6 +16,7 @@ function MainContent() {
   const mois = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre']
 
   const jour = jours[dateTime.getDay()]
+  const numeroJour = dateTime.getDate()
   const moisNom = mois[dateTime.getMonth()]
   const annee = dateTime.getFullYear()
   const heure = String(dateTime.getHours()).padStart(2, '0')
@@ -24,7 +25,7 @@ function MainContent() {
 
   return (
     <div className="main-content">
-      <p>Bonjour, on est le {jour}, {moisNom}, {annee} et il est {heure}:{minute}:{seconde}</p>
+      <p>Bonjour, on est le {jour} {numeroJour} {moisNom} {annee} et il est {heure}:{minute}:{seconde}</p>
     </div>
   )
 }
